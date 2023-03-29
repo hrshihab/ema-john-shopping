@@ -8,7 +8,7 @@ import Error from './Error/Error';
 
 
 const App = () => {
-  console.log('bidi');
+ 
   const router = createBrowserRouter([
     {
       path:'/',

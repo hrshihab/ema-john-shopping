@@ -24,10 +24,10 @@ const Order = () => {
            cart.map(pd=><ReviewItem key={pd.id} pd={pd} handleRemoveItem={handleRemoveItem}></ReviewItem>)
         }
 
-        
+       'mim' 
       </div>
       <div className='cart-container'>
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart}></Cart>j
       </div>
     </div>
   );
